@@ -1,0 +1,73 @@
+.hero__container {
+  position: relative;
+}
+.hero__inner{
+  position: absolute;
+  top: -555px;
+  background: linear-gradient(180deg, rgba(50, 42, 39, 0) -0.48%, rgba(45, 40, 40, 0.85) 33.38%, rgb(45, 40, 40) 49%, rgb(45, 40, 40) 68.27%, rgb(45, 40, 40) 81.82%, #2D2828 99.52%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: -15px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hero-heading {
+  margin: 0;
+  margin-top: 74px;
+  margin-left: 74px;
+  font-family: 'Paytone One';
+  font-size: 64px;
+  line-height: 89px;
+  color: rgb(255, 255, 255);
+}
+
+.hero-text {
+  margin: 0;
+  margin-top: 27px;
+  margin-left: 74px;
+  font-family: 'Paytone One';
+  font-size: 20px;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+}
+
+.hero-info {
+  width: calc(100% / 2);
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  margin-left: 74px;
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: rgb(255, 255, 255);
+}
+
+.hero-line {
+  margin-right: 20px;
+  margin-left: 20px;
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero-list {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 20px;
+  margin-right: 77px;
+  margin-left: 77px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-item__link {
+  text-decoration: none;
+  display: inline-block;
+  
+}
+.hero-item__img {
+  display: block;
+  width: auto;
+  height: auto;
+}
+

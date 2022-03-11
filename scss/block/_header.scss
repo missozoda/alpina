@@ -1,0 +1,13 @@
+.header {
+  background-image: url("../../img/header-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.header__inner {
+  padding-top: 51px;
+  padding-bottom: 650px;
+  display: flex;
+  align-items: center;
+}

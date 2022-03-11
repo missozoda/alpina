@@ -1,0 +1,18 @@
+.nav__list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav__item {
+  margin-left: 30px;
+}
+
+.nav__link {
+  font-family: "Paytone One";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}

@@ -1,0 +1,30 @@
+.hero-form__input {
+  margin-left: 74px;
+  margin-right: 20px;
+  margin-bottom: 67px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 35px;
+  padding-right: 131px;
+  font-family: 'Pavanam';
+  font-size: 14px;
+  line-height: 18px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50px;
+}
+
+.hero-form__input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.hero-form__btn {
+  padding: 9px 21px;
+  font-family: 'Pavanam';
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.4);
+  background-color: transparent;
+  border: 2px solid rgb(255, 22, 64);
+  border-radius: 50px;
+}
