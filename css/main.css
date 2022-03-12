@@ -414,11 +414,11 @@ img {
   margin-right: auto;
 }
 
-body {
+main {
   background-image: url(../../img/hero-back.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: left top;
 }
 
 .visually-hidden {
@@ -930,6 +930,54 @@ body {
   font-size: 14px;
   line-height: 149.8%;
   color: rgba(255, 255, 255, 0.7);
+}
+
+.brends {
+  -webkit-transform: translateY(-540px);
+          transform: translateY(-540px);
+}
+
+.brends-top-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.brends-bottom-list {
+  list-style-type: none;
+  margin: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.brends-bottom-text {
+  width: 268px;
+  font-family: 'Segoe UI';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: #000000;
 }
 
 .footer {
