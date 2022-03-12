@@ -8,14 +8,37 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
+  transform: translateY(-400px);
 }
 
 .footer__inner {
+  position: relative;
   padding-top: 140px;
   padding-bottom: 111px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+}
+
+.dumalo {
+  position: absolute;
+  left: 500px;
+  top: -80px;
+  width: 159px;
+  height: 159px;
+  padding: 21px;
+  border-radius: 50%;
+  background-image: url(../../img/footer-bc.png);
+  background-repeat: no-repeat;
+  background-size: 159px 159px;
+  background-position: left top;
+}
+
+.qizil {
+  width: 117px;
+  height: 117px;
+  border-radius: 50%;
+  background-color: rgb(255, 22, 64);
 }
 
 .footer__heading {
